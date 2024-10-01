@@ -50,3 +50,4 @@ Bootstrap provides a mobile-first design strategy, meaning the layout is built t
 1. Clone the repository:
    ```bash
    git clone https://github.com/DvirUliel/Bootstrap-Brawl-Stars-Project.git
+2. Open Bootsrap_project.html in your browser to view the website.
