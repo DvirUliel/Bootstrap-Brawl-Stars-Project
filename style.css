@@ -1,0 +1,64 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#Videos, #News, #Download {
+    scroll-margin-top: 150px; /* The value should match or exceed the height of the navbar */
+}
+
+  /* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+position: sticky;
+width: 100%;
+padding-left: 0;
+padding-right: 0;
+top: 0;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1000; /* Ensure it's above other content */
+}
+  
+.object-container{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+}
+  
+.radius-bordered{
+    border: 0.2px solid rgb(150, 150, 150); /* Change color as needed */
+    background-color: transparent; 
+    border-radius: 10px;
+}
+
+
+.image-container {
+    display: flex; 
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    overflow: hidden; 
+}
+
+.custom-image {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+    padding-right: 50px;
+}
+
+.bg-color-change{
+    background-color: gainsboro;
+}
